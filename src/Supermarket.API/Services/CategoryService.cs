@@ -1,12 +1,13 @@
-using System.Colections.Generic;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Supermarket.API.Domain.Models;
+using Supermarket.API.Domain.Repositories;
 using Supermarket.API.Domain.Services;
 
 // A service class is not a class that should handle data access: 
 // Repository Pattern exists to manage data from DB
 
-namespace Supermaket.API.Services
+namespace Supermarket.API.Services
 {
     public class CategoryService : ICategoryService
     {

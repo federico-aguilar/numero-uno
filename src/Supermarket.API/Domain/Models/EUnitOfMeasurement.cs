@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Supermaket.API.Domain.Models
+namespace Supermarket.API.Domain.Models
 {
     public enum EUnitOfMeasurement : byte
     {

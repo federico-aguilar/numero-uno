@@ -4,13 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+using Supermarket.API.Domain.Repositories;
+using Supermarket.API.Domain.Services;
+using Supermarket.API.Persistence.Repositories;
+using Supermarket.API.Persistence.Contexts;
+using Supermarket.API.Services;
 // ConfigureServices and Configure methods called at runtime by the framework pipeline to configure how 
 // application should work and which components must use
 
@@ -26,7 +32,6 @@ namespace Supermarket.API
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-
         // ASP.NET Core apps configured using dependency injection. EF Core can be added to this configuration
         // using AddDbContext in the ConfigureServices method of Startup.cs
 

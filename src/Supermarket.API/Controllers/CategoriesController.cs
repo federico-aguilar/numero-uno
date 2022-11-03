@@ -1,8 +1,12 @@
 // Handling requests and responses 
 
-// allows us access to Controller class
-using Microsoft.AspNetCore.Mvc;
-
+// allows us access to Controller class and <IEnumerable>
+using System.Collections.Generic;
+// allows Task
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc; 
+using Supermarket.API.Domain.Models;
+using Supermarket.API.Domain.Services;
 
 // Namespace constists of related classes, interfaces, enums, and structs
 // similar to modules of JS
@@ -11,7 +15,7 @@ namespace Supermaket.API.Controllers
     // Controller will respond at /api/categories due to Route attribute
     // we specifiy a placeholder to indicate that route should use class name, Category, WITHOUT controller suffix
     [Route("/api/[controller]")]
-    public class CategoryController : Controller
+    public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
 

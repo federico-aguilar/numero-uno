@@ -1,3 +1,5 @@
+using Supermarket.API.Domain.Models;
+
 namespace Supermarket.API.Domain.Models
 {
     public class Product

@@ -1,7 +1,8 @@
 // DbContext class brought into scope w/ EF Core
 using Microsoft.EntityFrameworkCore;
+using Supermarket.API.Domain.Models;
 
-namespace Supermarket.API.Domain.Persistence.Contexts
+namespace Supermarket.API.Persistence.Contexts
 {
     public class AppDbContext : DbContext
     {
@@ -29,7 +30,7 @@ namespace Supermarket.API.Domain.Persistence.Contexts
                 // Seeding data
                 new Category { Id = 100, Name = "Fruits and Vegetables"},
                 new Category { Id = 101, Name = "Dairy " }
-            )
+            );
 
             builder.Entity<Product>().ToTable("Products");
             builder.Entity<Product>().HasKey(p => p.Id);

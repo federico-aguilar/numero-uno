@@ -1,0 +1,14 @@
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.csprojAssemblyReference.cache
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.csproj.CoreCompileInputs.cache
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.RazorAssemblyInfo.cache
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.RazorAssemblyInfo.cs
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.AssemblyInfoInputs.cache
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.AssemblyInfo.cs
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/bin/Debug/netcoreapp2.2/Supermarket.API.deps.json
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/bin/Debug/netcoreapp2.2/Supermarket.API.runtimeconfig.json
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/bin/Debug/netcoreapp2.2/Supermarket.API.runtimeconfig.dev.json
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/bin/Debug/netcoreapp2.2/Supermarket.API.dll
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/bin/Debug/netcoreapp2.2/Supermarket.API.pdb
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.RazorTargetAssemblyInfo.cache
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.dll
+/Users/Jfar/code/Personal-Projects/net/aspNet/numero-uno/src/Supermarket.API/obj/Debug/netcoreapp2.2/Supermarket.API.pdb

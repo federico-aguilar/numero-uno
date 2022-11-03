@@ -14,7 +14,7 @@ namespace Supermaket.API.Services
 
         public CategoryService(ICategoryRepository categoryRepository)
         {
-            this._categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository;
         }
 
         public async Task<IEnumerable<Category>> ListAsync()
